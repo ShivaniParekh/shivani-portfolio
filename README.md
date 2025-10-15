@@ -21,7 +21,7 @@ It’s built using **HTML**, **CSS**, and **JavaScript**, and hosted with **GitH
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](./portfolio-page.png)  
+![Portfolio Screenshot](images/portfolio-page.png)  
 
 ---
 
