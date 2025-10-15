@@ -1,54 +1,237 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!DOCTYPE HTML>
+<!-- 
+	Shivani Parekh's Portfolio -->
 
-    <!-- Header Section -->
-    <header>
-        <h1>Hello, I'm Shivani Parekh!</h1>
-        <p>A brief introduction about yourself.</p>
-    </header>
-    
+<html>
+	<head>
+		<title>Shivani Parekh's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="images/pred.jpeg" alt="Project 1">
-            <h3>Project Title</h3>
-            <p>Short description of the project.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-            <a href="https://project1-demo.com" target="_blank">Live Demo</a>
-        </div>
-        <!-- Repeat for additional projects -->
-    </section>
-    
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
-        <!-- Add other social links as needed -->
-    </section>
-    <footer>
-        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
-    </footer>
-    
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B7DVYXC53P"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-    <script src="js/scripts.js"></script>
-</body>
+		gtag('config', 'G-B7DVYXC53P');
+		</script>
+
+
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Shivani Parekh<br />
+						Portfolio</h1>
+						<p>Hello 👋,<br />
+							Fueling innovation with data—I'm Shivani , a data scientist dedicated to using analytics, programming, and machine learning to drive success in dynamic, growth-oriented environments.<p>
+						<a href="https://www.linkedin.com/in/shivani-parekh-/" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'LinkedIn'});">@LinkedIn</a> </a></p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a>Project Gallery</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="mailto:parekh.shivani21@gmail.com" class="icon solid fa-envelope" onclick="gtag('event', 'click', {'event_category': 'Contact', 'event_label': 'Email'});"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shivani-parekh-/" class="icon brands fa-linkedin" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'LinkedIn'});"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/ShivaniParekh" class="icon brands fa-github" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'GitHub'});"><span class="label">GitHub</span></a></li>
+							<li><a href="https://medium.com/@ShivaniParekh" class="icon brands fa-medium" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'Medium'});"><span class="label">Medium</span></a></li>
+        						<li><a href="https://huggingface.co/" class="icon brands fa-hugging-face" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'Hugging Face'});"><span class="label">Hugging Face</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h3><a>PDF Summarizer App <br />
+									</header>
+									<a class="image fit"><img src="images/pdf-summarizer.jpg" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Built a document summarization tool using LangChain, OpenAI, Hugging Face, and Streamlit.Enabled automatic text extraction and concise summaries, improving information retrieval efficiency.
+								  </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/PDF-Summarizer" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'PDF Summarizer App '});" class="button">View Project</a></li>
+										
+									</ul>
+
+								</article>
+								<article>
+									<header>
+										<h3><a>End-to-End Student Performance<br />
+									</header>
+									<a class="image fit"><img src="images/student_performance.png" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Developed a robust and scalable solution to predict student performance utilizing modular programming, CI/CD Pipelines for seamless deployment and scalability.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/ML-Project" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'End-to-End Student Performance'});" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Retail Sales Analysis SQL Project<br />
+									</header>
+									<a class="image fit"><img src="images/SQL.png" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">This project is intended to showcase SQL skills and techniques commonly employed by data analysts to explore, clean, and analyze retail sales data. It includes setting up a retail sales database, conducting exploratory data analysis (EDA), and addressing specific business questions through SQL queries. This project is perfect for beginners in data analysis who wish to establish a strong foundation in SQL.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/SQL_Retail_Sales" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'Retail Sales Analysis SQL Project'});" class="button">View Project</a></li>
+					
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Iris Flower Species Prediction<br />
+						                        </header>
+									<a  class="image fit"><img src="images/Iris-Flower.png" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Developed a python script for predicting species of a flower using decision tree algorithm and deploying various techniques to create train and test dataset and train the model.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/Prediction-using-Decision-Tree-Algorithm" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'Iris Flower Species Prediction using Decision Tree'});" class="button">View Project</a></li>
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Exploratory Data Analysis – Retail</a></h2>
+									</header>
+									<a  class="image fit"><img src="images/EDA-Retail.jpg" alt="" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">This project focuses on performing Exploratory Data Analysis (EDA) on the Sample Superstore dataset. The goal is to analyse sales, profit, discounts, and customer segments across different regions, categories, and sub-categories. The insights gained can help identify key business opportunities and areas for improvement.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/EDA-SampleSuperStore-Data" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'EDA–Retail'});" class="button">View Project</a></li>
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>YT2BlogAI |AI-Powered Blog Generator<br />
+									</header>
+									<a class="image fit"><img src="images/YouTubeBlog.png" alt="" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Developed a Streamlit app that extracts YouTube transcripts and generates blogs using Groq LLMs, LangGraph, and LangSmith..</p>
+									<ul class="actions special">
+										<li><a href="https://shivaniparekh-yt2blogai.streamlit.app/" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'YT2BlogAI'});" class="button">View Project</a></li>
+										
+
+									</ul>
+								</article>			
+								<article>
+									<header>
+										<h3><a>CarWorth Predictor | ML-Powered Price Estimation </a></h2>
+									</header>
+									<a class="image fit"><img src="images/car_worth_predictor.png" alt="" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Developed a machine learning model in steamlit using Python and deployed it on Render , the model predicts used car prices, incorporating extensive data cleaning, feature engineering, and multiple ML algorithms.</p>
+								
+									<ul class="actions special">
+										<li><a href="https://github.com/ShivaniParekh/CarPricePrediction" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'CarWorth Predictor'});" class="button">View Project</a></li>
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Weather Forecast Dashboard – Power BI<br />
+									</header>
+									<a class="image fit"><img src="images/weather.png" alt="" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Integrated live weather API data for multiple cities, cleaned and transformed JSON data, and built an interactive dashboard displaying current weather (AQI, humidity, wind speed, UV index) and forecast trends with dynamic city selection.</p>
+									<ul class="actions special">
+										<li><a href="https://app.powerbi.com/links/DJ8HMhEN6x?ctid=5ff1a67c-10fb-4337-8e13-b65243b11056&pbi_source=linkShare&bookmarkGuid=972adcd2-0602-4407-9fbd-a33c438111f7" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'Weather Forecast Dashboard'});" class="button">View Project</a></li>
+									</ul>
+								</article> 
+								<article>
+									<header>
+										<h3><a>Power BI Blinkit Analysis </a></h2>
+									</header>
+									<a class="image fit"><img src="images/blinkit.png" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Developed a Power BI dashboard to analyze Blinkit sales data with filters for outlet location, size, and item type. Visualized key metrics like yearly trends, average/total sales, item ratings, and the impact of fat content on sales.</p>
+									
+									<ul class="actions special">
+										<li><a href="https://app.powerbi.com/links/CiBaNQiqaj?ctid=5ff1a67c-10fb-4337-8e13-b65243b11056&pbi_source=linkShare" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'BlinkIt Dashboard'});" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Power BI Parental Leave Analysis</a></h2>
+									</header>
+									<a class="image fit"><img src="images/Parental_Dashboard.png" style="width: 300px; height: 240px; border: 2px solid black; display: block; margin: 0 auto;" /></a>
+									<p style="font-size: 14px;">Analyzed parental leave policies across industries, visualizing trends and identifying key disparities using various Power BI visualizations.</p>
+									<ul class="actions special">
+										<li><a href="https://app.powerbi.com/links/aUf-1XdggM?ctid=5ff1a67c-10fb-4337-8e13-b65243b11056&pbi_source=linkShare" onclick="gtag('event', 'click', {'event_category': 'Portfolio Projects', 'event_label': 'Parental Leave Dashboard'});" class="button">View Project</a></li>
+									</ul>
+								</article>
+							</section>
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+							        <h3>Location</h3>
+								<p>India</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a>parekh.shivani21@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="mailto:parekh.shivani21@gmail.com" class="icon solid fa-envelope" onclick="gtag('event', 'click', {'event_category': 'Contact', 'event_label': 'Email'});"><span class="label">Email</span></a></li>
+									<li><a href="https://www.linkedin.com/in/shivani-parekh-/" class="icon brands fa-linkedin" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'LinkedIn'});"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/ShivaniParekh" class="icon brands fa-github" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'GitHub'});"><span class="label">GitHub</span></a></li>
+									<!-- <li><a href="https://www.instagram.com/" class="icon brands fa-instagram" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'Instagram'});"><span class="label">Instagram</span></a></li> -->
+									<li><a href="https://medium.com/@ShivaniParekh" class="icon brands fa-medium" onclick="gtag('event', 'click', {'event_category': 'Social Media', 'event_label': 'Medium'});"><span class="label">Medium</span></a></li>
+
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		
+
+		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+		
+		<df-messenger
+		intent="WELCOME"
+		chat-title="AI_Portfolio_Helper"
+		agent-id="6deeab26-c385-4f1f-a97c-45e5f113c6f2"
+		language-code="en"
+		theme-color="#FA7268"
+		></df-messenger>
+
+
+
+	</body>
 </html>
