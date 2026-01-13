@@ -112,6 +112,12 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+	.button.disabled {
+			pointer-events: none;   /* disables click */
+			opacity: 0.6;           /* visual feedback */
+			cursor: not-allowed;
+			text-decoration: none;
+		  }
 
 /* Type */
 
