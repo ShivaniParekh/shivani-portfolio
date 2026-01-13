@@ -5,7 +5,7 @@ This website showcases my **projects**, **skills**, and **experience** as a **Da
 It’s built using **HTML**, **CSS**, and **JavaScript**, and hosted with **GitHub Pages** to serve as a central hub for everything I create.
 
 
-🌐 **Live Demo:** [https://shivaniparekh.github.io/shivani-portfolio/](https://shivaniparekh.github.io/shivani-portfolio/)
+🌐 **Live Demo:** [https://shivaniparekh.github.io/shivaani-portfolio/](https://shivaniparekh.github.io/shivaani-portfolio/)
 
 ---
 
@@ -36,7 +36,7 @@ It’s built using **HTML**, **CSS**, and **JavaScript**, and hosted with **GitH
 
 Feel free to connect with me!  
 
-- 🌐 **Website:** [https://shivaniparekh.github.io/shivani-portfolio/](https://shivaniparekh.github.io/shivani-portfolio/)  
+- 🌐 **Website:** [https://shivaniparekh.github.io/shivaani-portfolio/](https://shivaniparekh.github.io/shivaani-portfolio/)  
 - ✉️ **Email:** [parekh.shivani21@gmail.com](mailto:parekh.shivani21@gmail.com)  
 - 💼 **LinkedIn:** [https://www.linkedin.com/in/shivani-parekh-/](https://www.linkedin.com/in/shivani-parekh-/)  
 - 💻 **GitHub:** [https://github.com/ShivaniParekh](https://github.com/ShivaniParekh)
